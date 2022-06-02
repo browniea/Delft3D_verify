@@ -1,0 +1,19 @@
+table-name  'Turbine Type 1      '
+parameter  'velocity            '  unit '[m/s]'
+parameter  'thrust coefficient  '  unit '[ - ]'
+parameter  'power coefficient   '  unit '[ - ]'
+0.0 0.72 0.45
+1.0 0.72 0.45
+2.0 0.72 0.45
+3.0 0.72 0.45
+table-name           'Turbine Type 2      '
+parameter            'velocity            '                     unit '[m/s]'
+parameter            'thrust coefficient  '                     unit '[ - ]'
+parameter            'power coefficient   '                     unit '[ - ]'
+-3.0 1.5000 0.45
+-2.0 1.5000 0.45
+-1.0 1.5000 0.45
+ 0.0 1.5000 0.45
+ 1.0 1.5000 0.45
+ 2.0 1.5000 0.45
+ 3.0 1.5000 0.45
