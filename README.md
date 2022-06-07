@@ -6,7 +6,7 @@ This code will compare experimental data to the simulated data on Delft3D.
 ## Simulated Data 
 The data calculated with Delft3D using the 18m x 4m x 2m flume. The turbine used is a horizontal axis and has a swept area diameter of 0.7m.  Identical to the one used to collect the experimental data. The thrust coefficient is set to 0.72 and power coefficient to 0.45.The discretization is 0.2m at the outer corners of the flume and 0.1m around the turbine placed at (6,3) as shown in the figure:
 
-The map.nc file is located here `Delft3D_verify/Data/river/d3d` and the project files are located in the `Delft3D_verify` folder under the same file path [Simulated Data]](https://github.com/browniea/Delft3D_verify/tree/verify/Data/river/d3d)
+The map.nc file is located here `Delft3D_verify/Data/river/d3d` and the project files are located in the `Delft3D_verify` folder under the same file path [Simulated Data](https://github.com/browniea/Delft3D_verify/tree/verify/Data/river/d3d)
 
 ## Experimental Data 
 The experimental data was collected during a flume test as documented in this citation. The nondimensionalized data is documented in this paper: 
