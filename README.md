@@ -3,14 +3,16 @@
 
 This code will compare experimental data to the simulated data on Delft3D.
 
-The data calculated with Delft3D using the 18m x 4m x 2m RGDGRID shown. The turbine used is a horizontal axis and has a swept area diameter of 0.7m.  Identical to the one used to collect the experimental data. The thrust coefficient is set to 0.72 and power coefficient to 0.45.The discretization is 0.2m at the outer corners of the flume and 0.1m around the turbine placed at (6,3) as shown in the figure:
+## Simulated Data 
+The data calculated with Delft3D using the 18m x 4m x 2m flume. The turbine used is a horizontal axis and has a swept area diameter of 0.7m.  Identical to the one used to collect the experimental data. The thrust coefficient is set to 0.72 and power coefficient to 0.45.The discretization is 0.2m at the outer corners of the flume and 0.1m around the turbine placed at (6,3) as shown in the figure:
 
-![image.png](attachment:1be26856-044a-45e1-903a-effaa255e8eb.png)
+The map.nc file is located here `Delft3D_verify/Data/river/d3d` and the project files are located in the `Delft3D_verify` folder under the same file path [Simulated Data]([Experimental Data](https://github.com/browniea/Delft3D_verify/tree/verify/Data/river/flume_experiment))
 
-
-
+## Experimental Data 
 The experimental data was collected during a flume test as documented in this citation. The nondimensionalized data is documented in this paper: 
->   P. Mycek, B. Gaurier, G. Germain, G. Pinon, and E. Rivoalen, “Experimental study of the turbulence intensity effects on marine current turbines behaviour. Part I: One single turbine,” Renew. Energy, vol. 66, pp. 729–746, 2014, doi: 10.1016/j.renene.2013.12.036.  
+>   P. Mycek, B. Gaurier, G. Germain, G. Pinon, and E. Rivoalen, “Experimental study of the turbulence intensity effects on marine current turbines behavior. Part I: One single turbine,” Renew. Energy, vol. 66, pp. 729–746, 2014, doi: 10.1016/j.renene.2013.12.036.  
+
+The velocity and turbulence intensity data is available in text files located in the file path `Delft3D_verify/Data/river/flume_experiment/` or [Experimental Data](https://github.com/browniea/Delft3D_verify/tree/verify/Data/river/flume_experiment).
 
 Here is an example of re-dimensioning the experimental data. 
 Nondimensionalized Centerline Data for a flume with 15% Turbulent Intensity at the inlet:
